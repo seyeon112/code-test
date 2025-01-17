@@ -20,5 +20,18 @@ int solution(int angle) {
         return answer;
     }
 }
+
+//1인분에 12,000원
+//음료수 2,000원
+//단, 10인분 먹으면 음료수 하나는 공짜
+
+int solution(int n, int k) {
+    int answer = 0;
+    if((0 < n && n < 1000)&&(n/10 <= k && k < 1000)) {
+        k = k - (n / 10);
+        answer = (n * 12000) + (k * 2000);
+    }
+    return answer;
+}
 	
 }
