@@ -70,5 +70,15 @@ int solution(int age) {
         return answer;
     }  
 }
+
+int solution(int n, int t) {
+    int answer = 0;
+    if((1 <= n && 10 >= n) && (1 <= t && 15 >= t)) {
+        for(int i = 1; i <= t; i++) {
+            n *= 2;
+        }
+    }
+    return n;
+}
 	
 }
