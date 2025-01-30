@@ -21,6 +21,14 @@ int solution(int angle) {
     }
 }
 
+int solution(int num1, int num2) {
+    if((num1 >= -50000)&&(num2 >= -50000)) {
+        int answer = num1 - num2;
+        return answer;
+    }
+   
+}
+
 //1인분에 12,000원
 //음료수 2,000원
 //단, 10인분 먹으면 음료수 하나는 공짜
