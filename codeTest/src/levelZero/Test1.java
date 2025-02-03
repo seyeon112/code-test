@@ -107,5 +107,18 @@ int solution(int slice, int n) {
     }
     return answer;
 }
+
+
+// numbers_len은 배열 numbers의 길이입니다.
+double solution(int numbers[], size_t numbers_len) {
+    double answer = 0;
+    int length = numbers_len;
+        for(int i = 0; i < length; i++) {
+            answer += numbers[i];
+        }
+    answer = answer / length;
+    
+    return answer;
+}
 	
 }
