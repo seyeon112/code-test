@@ -146,5 +146,19 @@ int solution(int n) {
 
     return answer;
 }
+
+int solution(int n) {
+    int answer = 0;
+
+    //10으로 나머지 연산을 하면 1의 자리 수가 나온다
+    //10으로 나누면 1의 자리 수가 없어진다
+    while(n != 0)
+    {
+        answer += n % 10;
+        n = n/ 10;
+    }
+
+    return answer;
+}
 	
 }
