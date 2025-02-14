@@ -229,5 +229,19 @@ class Solution {
         return answer;
     }
 }
+
+
+class Solution {
+    public int solution(String message) {
+        int answer = 0;
+        if (message != null) {
+            answer += message.length() * 2;
+
+
+        }
+        return answer;
+    }
+}
+
 	
 }
