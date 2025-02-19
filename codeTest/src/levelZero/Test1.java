@@ -295,6 +295,28 @@ class Solution {
     }
 }
 
+//좀 더 직관적인, 쉬운 풀이 참고하기
+import java.util.*;
+
+class Solution {
+    public int[] solution(int[] num_list) {
+
+        int even = 0;
+        int odd = 0;
+
+        for(int num : num_list){
+            if(num %2 == 0){
+                even++;
+            }else{
+                odd++;
+            }
+
+        }
+
+        return new int[]{even, odd};
+    }
+}
+
 
 class Solution {
     public String solution(String my_string) {
