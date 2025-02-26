@@ -21,6 +21,15 @@ int solution(int angle) {
     }
 }
 
+// 다른 방법으로 풀어보기!
+int solution(int num1, int num2) {
+    int answer = 0;
+    if((0 <= num1 && num1 <= 10000)&&(0 <= num2 && num2 <= 10000)) {
+        answer = num1 == num2 ? 1 : -1;
+    }
+    return answer;
+}
+
 int solution(int num1, int num2) {
     if((num1 >= -50000)&&(num2 >= -50000)) {
         int answer = num1 - num2;
