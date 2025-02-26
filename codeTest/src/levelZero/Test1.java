@@ -30,6 +30,15 @@ int solution(int num1, int num2) {
     return answer;
 }
 
+// 선생님의 나이 구하기
+int solution(int age) {
+    int answer = 0;
+    if(0 < age && age <= 120) {
+        answer = 2022 - age + 1;
+    }
+    return answer;
+}
+
 int solution(int num1, int num2) {
     if((num1 >= -50000)&&(num2 >= -50000)) {
         int answer = num1 - num2;
