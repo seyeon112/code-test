@@ -505,6 +505,17 @@ class Solution {
     }
 }
 
+class Solution {
+    public int solution(int[] array, int n) {
+        int answer = 0;
+        int[] arrays = array;
+        for(int i = 0; i < arrays.length; i++) {
+            if(arrays[i] == n) {answer += 1;}
+        }
+        return answer;
+    }
+}
+
 }
 
 
