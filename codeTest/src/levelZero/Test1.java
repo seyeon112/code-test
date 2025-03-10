@@ -516,6 +516,25 @@ class Solution {
     }
 }
 
+
+class Solution {
+    public int solution(int hp) {
+        int answer = hp/5;
+        int num = hp%5;
+
+        if (num==0){
+            return answer;
+        } else if(num%2==0){
+            answer += 2;
+        } else {
+            answer += 1;
+        }
+
+        return answer;
+    }
+}
+
+
 }
 
 
