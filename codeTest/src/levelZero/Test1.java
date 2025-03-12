@@ -545,6 +545,21 @@ class Solution {
     }
 }
 
+class Solution {
+    public int solution(int n) {
+        int answer = 0;
+        int a, b;
+        if (a * b == n) {
+            for (int i = 0; i++) {
+                answer++;
+            }
+        } else {
+            continue;
+        }
+     
+        return answer;
+    }
+}
 }
 
 
