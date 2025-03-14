@@ -573,6 +573,22 @@ class Solution {
         return answer;
     }
 }
+
+#include <stdio.h>
+#include <stdbool.h>
+#include <stdlib.h>
+
+int solution(int slice, int n) {
+    int answer = 0;
+    if ((1 <= n && n <= 100)&&(2 <= slice && 10 >= slice)) {
+       if (n % slice == 0) {
+           answer = n / slice;
+       }else {
+           answer = n / slice + 1;
+       }
+    }
+    return answer;
+}
 }
 
 
