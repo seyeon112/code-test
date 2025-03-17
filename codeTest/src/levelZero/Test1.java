@@ -599,7 +599,7 @@ function solution(names) {
     
     return answer;
 }
-
+//괜찮은 코드
 function solution(my_string) {
     const vowels = ["a", "e", "i", "o", "u"];
     let answer = [];
