@@ -599,6 +599,18 @@ function solution(names) {
     
     return answer;
 }
+
+function solution(my_string) {
+    const vowels = ["a", "e", "i", "o", "u"];
+    let answer = [];
+    let strArr = my_string.split('');
+    
+    for (let i = 0; i < strArr.length; i++) {
+        if (!vowels.includes(strArr[i])) answer.push(strArr[i]);
+    }
+    
+    return answer.join('');
+}
 }
 
 
