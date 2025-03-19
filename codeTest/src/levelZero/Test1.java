@@ -611,6 +611,21 @@ function solution(my_string) {
     
     return answer.join('');
 }
+
+// 클래스를 사용한 풀이
+// 살짝 아쉽다
+import java.util.Arrays;
+
+class Solution {
+    public int solution(int[] array) {
+        int answer = 0;
+        Arrays.sort(array);
+        answer = array[array.length / 2];
+        return answer;
+    }
+}
+
+
 }
 
 
