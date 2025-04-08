@@ -2,6 +2,15 @@ package levelZero;
 
 public class Test1 {
 
+#include <stdio.h>
+#include <stdbool.h>
+#include <stdlib.h>
+
+int solution(int num1, int num2) {
+    int answer = 0;
+    return answer;
+}
+
 	
 //알고리즘
 //switch문 사용
@@ -29,6 +38,7 @@ int solution(int num1, int num2) {
     }
     return answer;
 }
+
 
 // 선생님의 나이 구하기
 int solution(int age) {
